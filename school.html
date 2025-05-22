@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAI INFO SCHOOL</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      padding: 15px 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      color: #00BCD4;
+      font-size: 26px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .logo-icon {
+      margin-right: 10px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #000B1D;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .nav-links a.active {
+      color: #00BCD4;
+    }
+
+    .nav-links a:hover {
+      color: #00BCD4;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      padding: 10px;
+      z-index: 100;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .join-btn {
+      background: #00BCD4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .join-btn:hover {
+      background: #00a6bb;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">
+      <span class="logo-icon">📘</span> SAI INFO SCHOOL
+    </a>
+
+    <div class="nav-links">
+      <a href="#" class="active">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">COURSES</a>
+
+      <div class="dropdown">
+        <a href="#">PRE-KG ▼</a>
+        <div class="dropdown-content">
+          <a href="#">LKG</a><br />
+          <a href="#">UKG</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#">PAGES ▼</a>
+        <div class="dropdown-content">
+          <a href="#">Gallery</a><br />
+          <a href="#">Events</a>
+        </div>
+      </div>
+
+      <a href="#">CONTACT</a>
+    </div>
+
+    <button class="join-btn">
+      Join Now →
+    </button>
+  </nav>
+
+</body>
+</html>
