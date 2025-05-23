@@ -102,4 +102,28 @@
 	.section-title p{
 		font-size: 14px;
 	}
+
+	.custom-title {
+  font-family: 'Chewy', cursive;
+  color: #ff5722;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #607d8b;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 30px;
+  height: 3px;
+  background-color: #ff5722;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
 	
