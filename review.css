@@ -50,8 +50,8 @@
       background-size: cover;
     }*/
 
-     .testimonial-slider {
-    background: #a8d33b;
+  .testimonial-slider {
+    background: #a8cd51;
     margin: 40px auto;
     padding: 40px;
     border-radius: 20px;
@@ -101,3 +101,5 @@
   .dot.active {
     background-color: #444;
   }
+
+ 
