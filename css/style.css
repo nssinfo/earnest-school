@@ -273,7 +273,7 @@
 
 
 /*** Categories & Courses ***/
-.category img,
+/*.category img,
 .course-item img {
     transition: .5s;
 }
@@ -281,17 +281,57 @@
 .category a:hover img,
 .course-item:hover img {
     transform: scale(1.1);
+}*/
+
+.course-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-item img {
+    width: 100%;
+    height: 250px; /* or any fixed value */
+    object-fit: cover;
+}
+
+.course-item .text-center {
+    flex-grow: 1;
 }
 
 
+
 /*** Team ***/
-.team-item img {
+/*.team-item img {
     transition: .5s;
 }
 
 .team-item:hover img {
     transform: scale(1.1);
+}*/
+
+.team-item {
+    height: 100%; /* Makes all columns fill height equally */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.team-item .overflow-hidden {
+    height: 300px; /* Set the image area height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.team-item .overflow-hidden img {
+    height: 100%;
+    width: auto;
+    object-fit: cover; /* Makes sure images fill nicely */
+}
+
 
 
 /*** Testimonial ***/
