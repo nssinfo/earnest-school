@@ -256,13 +256,11 @@
 .service-item {
     background: var(--light);
     transition: .5s;
-   
 }
 
 .service-item:hover {
     margin-top: -10px;
     background: var(--primary);
-   
 }
 
 .service-item * {
@@ -275,7 +273,7 @@
 
 
 /*** Categories & Courses ***/
-/**.category img,
+.category img,
 .course-item img {
     transition: .5s;
 }
@@ -283,34 +281,7 @@
 .category a:hover img,
 .course-item:hover img {
     transform: scale(1.1);
-}**/
-
-.course-item {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
-
-.row.g-4 > div {
-    display: flex;
-}
-
-.course-item .position-relative {
-    height: 250px;
-    overflow: hidden;
-}
-
-.course-item img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.course-item .text-center {
-    flex-grow: 1;
-}
-
 
 
 /*** Team ***/
@@ -321,29 +292,6 @@
 .team-item:hover img {
     transform: scale(1.1);
 }
-/*changes image  size*/
-
-.team-item {
-    height: 100%; /* Makes all columns fill height equally */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.team-item .overflow-hidden {
-    height: 300px; /* Set the image area height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.team-item .overflow-hidden img {
-    height: 100%;
-    width: auto;
-    object-fit: cover; /* Makes sure images fill nicely */
-}
-
 
 
 /*** Testimonial ***/
@@ -483,20 +431,4 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
-}
-
-/*box*/
-
-.service-item {
-    height: 100%;
-    background-color: #f0fafa; /* Optional for clarity */
-    box-shadow: 0 0 15px rgba(0,0,0,0.05); /* Optional */
-    border-radius: 8px;
-}
-
-.service-wrapper {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
 }
