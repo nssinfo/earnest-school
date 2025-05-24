@@ -103,7 +103,7 @@
 		font-size: 14px;
 	}
 
-	.custom-title {
+/*	.custom-title {
   font-family: 'Chewy', cursive;
   color: #ff5722;
   font-size: 36px;
@@ -124,6 +124,59 @@
   margin: 0 auto;
   margin-top: 10px;
   border-radius: 2px;
+}*/
+
+.custom-title {
+    font-family: 'Fredoka', sans-serif; /* Use a playful, bold font */
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff5e14; /* Orange-red shade */
+    margin-bottom: 0.5rem;
 }
 
+.subtitle {
+    color: #6c757d; /* Soft gray */
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.underline {
+    width: 40px;
+    height: 3px;
+    background-color: #ff5e14;
+    margin: 0 auto;
+}
+
+ body {
+            font-family: 'Roboto', sans-serif;
+            background: #f9f9f9;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-family: 'Bubblegum Sans', cursive;
+            font-size: 36px;
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        .section-title p {
+            color: #777;
+            font-size: 16px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .section-title p::after {
+            content: "";
+            width: 40px;
+            height: 3px;
+            background-color: #ff5722;
+            display: block;
+            margin: 10px auto 0;
+        }
 	
