@@ -3,192 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SAI INFO SCHOOL</title>
+  <title>EARNEST SCHOOL</title>
 
-   <!-- Bootstrap CSS CDN -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap & Font Awesome CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 
-  <!-- Custom CSS -->
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Navbar Link Styles */
-    .navbar-nav .nav-link {
-      font-weight: 600;
-      transition: color 0.3s ease;
-    }
-
-    .navbar-nav .nav-link:hover {
-      color: #0d6efd !important; /* Bootstrap primary blue */
-    }
-
-    /* Header below navbar */
-    .custom-header {
-      background-color: #fceeee;
-      text-align: center;
-      padding: 20px 0;
-    }
-
-    .custom-header .logo-section img {
-      height: 80px;
-    }
-
-    .custom-header .logo-section p {
-      font-style: italic;
-      font-size: 18px;
-      color: #000;
-      margin-top: 5px;
-      font-weight: 500;
-    }
-  </style>
-   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Roboto:300,400,500,700,900" rel="stylesheet">
-  
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #ffece7;
-    }
-
-    /* Section Styling */
-    section.courses {
-      padding: 80px 0;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 50px;
-    }
-
-    .section-title h2 {
-      font-family: 'Bubblegum Sans', cursive;
-      font-size: 36px;
-      font-weight: bold;
-      color: #ff5722;
-    }
-
-    .section-title p {
-      font-size: 18px;
-      color: #666;
-      margin-top: 10px;
-    }
-
-    .course-single {
-      background-color: #fff;
-      border-radius: 20px;
-      overflow: hidden;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
-      transition: all 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-
-    .course-single figure {
-      margin: 0;
-    }
-
-    .course-single img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px;
-    }
-
-    .course-single h3 {
-      font-size: 20px;
-      font-weight: 700;
-      color: white;
-      padding: 10px 20px;
-      margin: 0;
-      position: relative;
-      display: inline-block;
-      clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-      width: fit-content;
-    }
-
-    .course-orange h3 {
-      background-color: #ff5722;
-    }
-
-    .course-blue h3 {
-      background-color: #1976d2;
-    }
-
-    .course-green h3 {
-      background-color: #8bc34a;
-    }
-
-    .course-body {
-      padding: 20px;
-      flex-grow: 1;
-    }
-
-    .course-body p {
-      font-size: 15px;
-      color: #555;
-      margin: 0;
-    }
-
-    .course-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-top: 1px solid #eee;
-      padding: 15px 20px;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .course-footer a {
-      padding: 8px 16px;
-      border-radius: 5px;
-      font-size: 14px;
-      font-weight: 600;
-      color: white;
-      text-decoration: none;
-    }
-
-    .course-orange .course-footer a {
-      background-color: #ff5722;
-    }
-
-    .course-orange .course-footer span {
-      color: #ff5722;
-    }
-
-    .course-blue .course-footer a {
-      background-color: #1976d2;
-    }
-
-    .course-blue .course-footer span {
-      color: #1976d2;
-    }
-
-    .course-green .course-footer a {
-      background-color: #8bc34a;
-    }
-
-    .course-green .course-footer span {
-      color: #8bc34a;
-    }
-  </style>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/course_header.css">
+  <link rel="stylesheet" href="css/course.css">
 </head>
 <body>
 
-  <!-- Bootstrap Navbar -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-      <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>SAI INFO SCHOOL</h2>
+      <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>EARNEST SCHOOL</h2>
     </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
@@ -222,87 +55,84 @@
     </div>
   </nav>
 
-  <!-- Custom Header without Wave -->
+  <!-- Custom Header -->
   <header class="custom-header">
     <div class="custom-header-container">
       <div class="logo-section">
-        <!-- Add logo image and tagline here if needed -->
+        <!-- Add logo image and tagline here -->
       </div>
     </div>
   </header>
 
-  <!-- Bootstrap JS CDN -->
+  <!-- Courses Section -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title">
+            <h2 class="color-orange">Our Courses</h2>
+            <p>Our Best Services for your Kids</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Course 1 -->
+        <div class="col-lg-4 mb-4">
+          <div class="course-single course-orange">
+            <figure>
+              <img src="preschool/images/course-1.jpg" alt="Water Color Painting">
+            </figure>
+            <h3>Water Color Painting</h3>
+            <div class="course-body">
+              <p>Today, we're going to have fun with watercolors. Watercolors are soft, dreamy paints that blend beautifully—just like magic!</p>
+            </div>
+            <div class="course-footer">
+              <a href="#">Apply Now</a>
+              <span>Rs 6,000.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="col-lg-4 mb-4">
+          <div class="course-single course-blue">
+            <figure>
+              <img src="preschool/images/course-2.jpg" alt="Play House & Nursery">
+            </figure>
+            <h3>Play House & Nursery</h3>
+            <div class="course-body">
+              <p>Our playhouse and nursery are special places where you can laugh, learn, and make new friends every day!</p>
+            </div>
+            <div class="course-footer">
+              <a href="#">Apply Now</a>
+              <span>Rs 12,000.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="col-lg-4 mb-4">
+          <div class="course-single course-green">
+            <figure>
+              <img src="preschool/images/course-3.jpg" alt="Primary Classes">
+            </figure>
+            <h3>Primary Classes</h3>
+            <div class="course-body">
+              <p>You are now in the big kids’ classroom—where learning is fun, friendships grow, and every day is a new adventure!</p>
+            </div>
+            <div class="course-footer">
+              <a href="#">Apply Now</a>
+              <span>Rs 20,000.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Our Courses Section Starts -->
-<section class="courses" id="courses">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <!-- Section title start -->
-        <div class="section-title">
-          <h2 class="color-orange">Our Courses</h2>
-          <p>Our Best Services for your Kids</p>
-        </div>
-        <!-- Section title end -->
-      </div>
-    </div>
-
-    <div class="row">
-      <!-- Course 1 -->
-      <div class="col-lg-4 mb-4">
-        <div class="course-single course-orange">
-          <figure>
-            <img src="preschool/images/course-1.jpg" alt="Water Color Painting">
-          </figure>
-          <h3>Water Color Painting</h3>
-          <div class="course-body">
-            <p>Today, we're going to have fun with watercolors. Watercolors are soft, dreamy paints that blend beautifully—just like magic!</p>
-          </div>
-          <div class="course-footer">
-            <a href="#">Apply Now</a>
-            <span>Rs 6,000.00</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Course 2 -->
-      <div class="col-lg-4 mb-4">
-        <div class="course-single course-blue">
-          <figure>
-            <img src="preschool/images/course-2.jpg" alt="Play House & Nursery">
-          </figure>
-          <h3>Play House & Nursery</h3>
-          <div class="course-body">
-            <p>Our playhouse and nursery are special places where you can laugh, learn, and make new friends every day!</p>
-          </div>
-          <div class="course-footer">
-            <a href="#">Apply Now</a>
-            <span>Rs 12,000.00</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Course 3 -->
-      <div class="col-lg-4 mb-4">
-        <div class="course-single course-green">
-          <figure>
-            <img src="preschool/images/course-3.jpg" alt="Primary Classes">
-          </figure>
-          <h3>Primary Classes</h3>
-          <div class="course-body">
-            <p>You are now in the big kids’ classroom—where learning is fun, friendships grow, and every day is a new adventure!</p>
-          </div>
-          <div class="course-footer">
-            <a href="#">Apply Now</a>
-            <span>Rs 20,000.00</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Our Courses Section Ends -->
 
 </body>
 </html>
