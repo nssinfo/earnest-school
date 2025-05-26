@@ -69,29 +69,85 @@
   <p style="color: #1d1c1c;">Explore the vibrant life of our school through a collection of memorable moments, events, and achievements captured in our photo gallery.</p>
   <div style="height: 3px; width: 30px; background-color: #f4511e; margin: 10px auto;"></div>
 
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px;">
-    <!-- Gallery Item -->
-    <div class="gallery-item">
-      <img src="preschool\images\kid2.jpg" alt="Gallery 1">
-      <div class="corner top-left orange"></div>
-      <div class="corner bottom-right orange"></div>
-    </div>
 
-    <div class="gallery-item">
-      <img src="preschool\images\kid2.jpg" alt="Gallery 2">
-      <div class="corner top-left blue"></div>
-      <div class="corner bottom-right blue"></div>
-    </div>
+ <div style="display: grid; grid-template-columns: repeat(4, 1fr);grid-template-rows: repeat(2, auto); gap: 30px;justify-content: center; margin-top: 40px;">
+ <div class="gallery-grid">
 
-    <div class="gallery-item">
-      <img src="preschool\images\kid2.jpg" alt="Gallery 3">
-      <div class="corner top-left green"></div>
-      <div class="corner bottom-right green"></div>
-    </div>
+ <div class="gallery-item">
+   <img src="preschool/images/kid2.jpg" alt="Gallery 1">
+   <div class="corner top-left orange"></div>
+   <div class="corner bottom-right orange"></div>
+ </div>
+
+ <div class="gallery-item">
+  <img src="preschool/images/kid2.jpg" alt="Gallery 2">
+  <div class="corner top-left blue"></div>
+  <div class="corner bottom-right blue"></div>
+ </div>
+
+ <div class="gallery-item">
+  <img src="preschool/images/kid2.jpg" alt="Gallery 3">
+  <div class="corner top-left green"></div>
+  <div class="corner bottom-right green"></div>
+ </div>
+
+ <div class="gallery-item">
+  <img src="preschool/images/kid2.jpg" alt="Gallery 4">
+  <div class="corner top-left orange"></div>
+  <div class="corner bottom-right orange"></div>
+ </div>
+
+ <div class="gallery-item">
+  <img src="preschool/images/kid2.jpg" alt="Gallery 1">
+  <div class="corner top-left orange"></div>
+  <div class="corner bottom-right orange"></div>
+ </div>
+
+ <div class="gallery-item">
+  <img src="preschool/images/kid2.jpg" alt="Gallery 2">
+  <div class="corner top-left blue"></div>
+  <div class="corner bottom-right blue"></div>
+ </div>
+
+ <div class="gallery-item">
+  <img src="preschool/images/kid2.jpg" alt="Gallery 3">
+  <div class="corner top-left green"></div>
+  <div class="corner bottom-right green"></div>
+ </div>
+
+ <div class="gallery-item">
+  <img src="preschool/images/kid2.jpg" alt="Gallery 4">
+  <div class="corner top-left orange"></div>
+  <div class="corner bottom-right orange"></div>
+ </div>
+
 
     <!-- Repeat for more images -->
-  </div>
+ </div>   
+</div>
 </section>
+
+
+<script>
+  const items = document.querySelectorAll('.gallery-item');
+
+  items.forEach(item => {
+    item.addEventListener('touchstart', () => {
+      item.classList.add('zoom');
+    });
+
+    item.addEventListener('touchend', () => {
+      item.classList.remove('zoom');
+    });
+  });
+</script>
+
+<style>
+  .gallery-item.zoom img {
+    transform: scale(1.1);
+  }
+</style>
+
 
  </body>
 </html>
