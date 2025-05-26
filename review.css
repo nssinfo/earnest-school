@@ -70,9 +70,25 @@ h2.section-title {
   display: block;
 }
  
-.testimonial-slide img {
+/*.testimonial-slide img {
   border-radius: 50%;
   margin-bottom: 15px;
+}*/
+
+.review-section {
+  text-align: center;         /* Center-align the entire section */
+  margin: 20px auto;
+  max-width: 400px;           /* Optional: restrict width */
+}
+
+.review-image {
+  width: 200px;               /* Adjust size as needed */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;         /* Circular image */
+  clip-path: ellipse(45% 40% at 50% 50%);  /* For oval shape */
+  display: block;
+  margin: 0 auto 15px auto;   /* Center image */
 }
  
 .testimonial-slide h3 {
