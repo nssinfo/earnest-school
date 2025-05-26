@@ -71,6 +71,14 @@ h2.section-title {
     overflow: hidden;
   }
 
+  .gallery-grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, auto);
+   gap: 30px;
+   justify-content: center;
+   margin-top: 40px;
+  }
 
   .gallery-item img {
     width: 100%;
@@ -78,6 +86,13 @@ h2.section-title {
     object-fit: cover;
     display: block;
     border-radius: 4px;
+    transition: transform 0.3s ease;
+  }
+
+  /* Zoom effect on hover (for desktop) and touch (mobile tap) */
+  .gallery-item:hover img,
+  .gallery-item:active img {
+    transform: scale(1.1); /* Slight zoom */
   }
 
 
