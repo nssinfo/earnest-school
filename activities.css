@@ -1,0 +1,103 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .our-activities {
+      padding: 80px 0;
+      background: #fff;
+      text-align: center;
+    }
+
+    .section-title h2 {
+      font-family: 'Bubblegum Sans', cursive;
+      font-size: 36px;
+      color: #ff5722;
+      font-weight: bold;
+    }
+
+    .section-title p {
+      font-size: 18px;
+      color: #666;
+      margin-top: 10px;
+    }
+
+    .section-title .line {
+      width: 40px;
+      height: 3px;
+      background: #ff5722;
+      margin: 20px auto 0;
+    }
+
+    .activities-single {
+      background: #fff;
+      padding: 40px 25px;
+      margin-bottom: 30px;
+      border-radius: 16px;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .activities-single:hover {
+      transform: translateY(-10px);
+    }
+
+    .double-circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #90caf9; /* Outer lighter ring */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .double-circle .inner {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: #2196f3; /* Inner darker color */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .double-circle .inner i {
+      font-size: 28px;
+      color: white;
+    }
+
+    .activities-single h3 {
+      font-family: 'Bubblegum Sans', cursive;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: #111;
+    }
+
+    .activities-single p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .learn-more {
+      font-weight: bold;
+      color: #ff5722;
+      text-decoration: none;
+    }
+
+    .learn-more i {
+      margin-left: 5px;
+      transition: margin-left 0.3s ease;
+    }
+
+    .learn-more:hover i {
+      margin-left: 10px;
+    }

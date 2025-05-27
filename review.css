@@ -1,0 +1,155 @@
+ 
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:wght@300;400;500;700;900&display=swap');
+ 
+/* Navbar Link Styles */
+.navbar-nav .nav-link {
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+.navbar-nav .nav-link:hover {
+  color: #00bedf !important;
+}
+ 
+/* Brand and Active Link Color */
+.navbar-brand h2,
+.navbar-nav .nav-link.active {
+  color: #00bedf !important;
+}
+ 
+/* Join Now Button */
+.btn-primary {
+  background-color: #00bedf;
+  border-color: #00bedf;
+}
+ 
+.btn-primary:hover {
+  background-color: #00aac8;
+  border-color: #00aac8;
+}
+ 
+/* Custom Header Style Below Navbar */
+.custom-header {
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+  position: relative;
+}
+ 
+.custom-header-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.navbar-nav {
+  gap: 30px; /* adjust this as needed */
+  display: flex;
+  align-items: center;
+}
+ 
+.navbar-nav .nav-link {
+  padding: 0 !important; /* remove extra padding */
+  margin: 0; /* optional: clean up default margins */
+  font-size: 16px; /* optional: adjust font size if needed */
+}
+
+.logo-section img {
+  height: 80px;
+}
+ 
+.logo-section p {
+  font-style: italic;
+  font-size: 18px;
+  color: #000;
+  margin-top: 5px;
+  font-weight: 500;
+}
+ 
+ 
+.wave-divider {
+  position: relative;
+  height: 50px;
+  background: #f4ffcf;
+}
+ 
+/* Section Title Style */
+h2.section-title {
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f4511e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+/* Testimonial Slider */
+.testimonial-slider {
+  background: #a8cd51;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 700px;
+  position: relative;
+}
+ 
+.testimonial-slide {
+  display: none;
+  color: white;
+}
+ 
+.testimonial-slide.active {
+  display: block;
+}
+ 
+/*.testimonial-slide img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}*/
+
+.review-section {
+  text-align: center;         /* Center-align the entire section */
+  margin: 20px auto;
+  max-width: 400px;           /* Optional: restrict width */
+}
+
+.review-image {
+  width: 200px;               /* Adjust size as needed */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;         /* Circular image */
+  clip-path: ellipse(45% 40% at 50% 50%);  /* For oval shape */
+  display: block;
+  margin: 0 auto 15px auto;   /* Center image */
+}
+ 
+.testimonial-slide h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+ 
+.testimonial-slide p {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+}
+ 
+.dots {
+  margin-top: 20px;
+}
+ 
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+ 
+.dot.active {
+  background-color: #444;
+}
+ 
+ 

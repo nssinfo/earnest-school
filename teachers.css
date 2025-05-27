@@ -1,0 +1,182 @@
+/************************************/
+/*****   Faculty Team area css  *****/
+/************************************/
+
+.faculty{
+	padding: 100px 0;
+	background: #ecf5fe;
+	position: relative;
+}
+
+.faculty:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	height: 16px;
+	background: url(../images/wave-bg3.png) repeat-x;
+	transform: rotate(180deg);
+}
+
+.faculty-single{
+	text-align: center;
+	background: #fff;
+	padding: 40px 30px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.faculty-single figure{
+	display: inline-block;
+	max-width: 160px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 8px solid rgba(0,0,0,0.06);
+}
+
+.faculty-single h3{
+	display: inline-block;
+	letter-spacing: 0.04em;
+	font-size: 18px;
+	font-weight: 500;
+	position: relative;
+	color: #fff;
+	padding: 8px 20px;
+	z-index: 1;
+}
+
+.faculty-single h3:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	transform: skewX(30deg);
+}
+
+.faculty-single h3:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	transform: skewX(-30deg);
+}
+
+.faculty-single p{
+	margin: 0;
+	color: #333;
+}
+
+.faculty-orange h3:before,
+.faculty-orange h3:after{
+	background: #ff5722;
+}
+
+.faculty-blue h3:before,
+.faculty-blue h3:after{
+	background: #1976d2;
+}
+
+.faculty-green h3:before,
+.faculty-green h3:after{
+	background: #a4cf27;
+}
+
+/* section title*/
+
+.section-title{
+		margin-bottom: 40px;
+	}
+	
+	.section-title h2{
+		font-size: 24px;
+	}
+
+	.section-title p{
+		font-size: 14px;
+	}
+
+/*	.custom-title {
+  font-family: 'Chewy', cursive;
+  color: #ff5722;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #607d8b;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 30px;
+  height: 3px;
+  background-color: #ff5722;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}*/
+
+.custom-title {
+    font-family: 'Fredoka', sans-serif; /* Use a playful, bold font */
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff5e14; /* Orange-red shade */
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #6c757d; /* Soft gray */
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.underline {
+    width: 40px;
+    height: 3px;
+    background-color: #ff5e14;
+    margin: 0 auto;
+}
+
+ body {
+            font-family: 'Roboto', sans-serif;
+            background: #f9f9f9;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-family: 'Bubblegum Sans', cursive;
+            font-size: 36px;
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        .section-title p {
+            color: #777;
+            font-size: 16px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .section-title p::after {
+            content: "";
+            width: 40px;
+            height: 3px;
+            background-color: #ff5722;
+            display: block;
+            margin: 10px auto 0;
+        }
+	
