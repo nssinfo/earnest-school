@@ -118,7 +118,7 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--dark);
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .navbar-light.sticky-top {
