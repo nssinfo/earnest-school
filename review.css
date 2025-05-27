@@ -42,7 +42,18 @@
   max-width: 1200px;
   margin: auto;
 }
+.navbar-nav {
+  gap: 30px; /* adjust this as needed */
+  display: flex;
+  align-items: center;
+}
  
+.navbar-nav .nav-link {
+  padding: 0 !important; /* remove extra padding */
+  margin: 0; /* optional: clean up default margins */
+  font-size: 16px; /* optional: adjust font size if needed */
+}
+
 .logo-section img {
   height: 80px;
 }
