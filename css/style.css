@@ -73,6 +73,7 @@
     justify-content: center;
     font-weight: normal;
     border-radius: 0px;
+    
 }
 
 
@@ -84,6 +85,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+   
 }
 
 .navbar-light .navbar-nav .nav-link {
